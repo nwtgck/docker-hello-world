@@ -1,6 +1,6 @@
 # NOTE: Multi-stage builds
 
-FROM gcc:8.2.0
+FROM gcc:11.1.0
 
 COPY hello.c /
 RUN gcc -static -o hello hello.c
