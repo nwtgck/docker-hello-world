@@ -8,6 +8,6 @@ RUN gcc -static -o hello hello.c
 
 FROM scratch
 
-LABEL maintainer="Ryo Ota <nwtgck@gmail.com>"
+LABEL maintainer="Ryo Ota <nwtgck@nwtgck.org>"
 COPY --from=0 hello /
 CMD ["/hello"]
